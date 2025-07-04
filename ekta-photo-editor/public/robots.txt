@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ekta-photo-editor.com/sitemap.xml
+
+# Disallow crawling of any temporary or test files
+Disallow: /test-*
+Disallow: /*.tmp
+
+# Allow crawling of main application
+Allow: /static/
+Allow: /assets/
+
